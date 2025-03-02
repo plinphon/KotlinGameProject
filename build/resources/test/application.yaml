@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:fantasyspace
+    username: admin
+    password: admin
+    driverClassName: org.h2.Driver

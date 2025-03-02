@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.motycka.edu.game.match.MatchRepositoryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-02T10:53:40" hostname="Plinphons-MacBook-Pro.local" time="0.208">
+  <properties/>
+  <testcase name="selectByAccountId should return matches for given account()" classname="com.motycka.edu.game.match.MatchRepositoryTest" time="0.201"/>
+  <testcase name="selectAllMatches should return list of matches()" classname="com.motycka.edu.game.match.MatchRepositoryTest" time="0.001"/>
+  <testcase name="insertMatch should save match and return inserted match()" classname="com.motycka.edu.game.match.MatchRepositoryTest" time="0.002"/>
+  <testcase name="selectByCharacterId should return matches for given character()" classname="com.motycka.edu.game.match.MatchRepositoryTest" time="0.001"/>
+  <testcase name="updateMatch should update match details()" classname="com.motycka.edu.game.match.MatchRepositoryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

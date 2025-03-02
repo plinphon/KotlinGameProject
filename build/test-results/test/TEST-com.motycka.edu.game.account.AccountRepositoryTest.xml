@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.motycka.edu.game.account.AccountRepositoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-02T10:53:40" hostname="Plinphons-MacBook-Pro.local" time="0.022">
+  <properties/>
+  <testcase name="selectByUsername should return null when not found()" classname="com.motycka.edu.game.account.AccountRepositoryTest" time="0.015"/>
+  <testcase name="insertAccount should return inserted account()" classname="com.motycka.edu.game.account.AccountRepositoryTest" time="0.004"/>
+  <testcase name="selectByUsername should return account when found()" classname="com.motycka.edu.game.account.AccountRepositoryTest" time="0.002"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.2)
+
+2025-03-02T17:53:40.632+07:00  INFO 83218 --- [    Test worker] c.m.e.g.account.AccountRepositoryTest    : Starting AccountRepositoryTest using Java 21.0.6 with PID 83218 (started by plinphon in /Users/plinphon/IdeaProjects/fantasy_space/fantasy-space-game)
+2025-03-02T17:53:40.632+07:00  INFO 83218 --- [    Test worker] c.m.e.g.account.AccountRepositoryTest    : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T17:53:40.673+07:00  INFO 83218 --- [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2025-03-02T17:53:40.700+07:00  INFO 83218 --- [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:e7c7d58c-0ea7-47c1-ba70-0b6b14b98d9f;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-03-02T17:53:40.834+07:00  INFO 83218 --- [    Test worker] c.m.e.g.account.AccountRepositoryTest    : Started AccountRepositoryTest in 0.215 seconds (process running for 2.5)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.motycka.edu.game.account.AccountControllerTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-03-02T10:53:40" hostname="Plinphons-MacBook-Pro.local" time="0.197">
+  <properties/>
+  <testcase name="postAccount should create account()" classname="com.motycka.edu.game.account.AccountControllerTest" time="0.197">
+    <failure message="java.lang.AssertionError: Status expected:&lt;200&gt; but was:&lt;401&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Status expected:&lt;200&gt; but was:&lt;401&gt;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:637)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at com.motycka.edu.game.account.AccountControllerTest.postAccount should create account(AccountControllerTest.kt:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <system-out><![CDATA[2025-03-02T17:53:39.367+07:00  INFO 83218 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.motycka.edu.game.account.AccountControllerTest]: AccountControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-03-02T17:53:39.381+07:00  INFO 83218 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.motycka.edu.GameApplication for test class com.motycka.edu.game.account.AccountControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.2)
+
+2025-03-02T17:53:39.399+07:00  INFO 83218 --- [    Test worker] c.m.e.g.account.AccountControllerTest    : Starting AccountControllerTest using Java 21.0.6 with PID 83218 (started by plinphon in /Users/plinphon/IdeaProjects/fantasy_space/fantasy-space-game)
+2025-03-02T17:53:39.399+07:00  INFO 83218 --- [    Test worker] c.m.e.g.account.AccountControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T17:53:40.212+07:00  INFO 83218 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-03-02T17:53:40.316+07:00  WARN 83218 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6d7a50cc-3bd1-45d0-a9fc-d35f92d11494
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-03-02T17:53:40.367+07:00  INFO 83218 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7f5a25e2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@553d828a, org.springframework.security.web.context.SecurityContextHolderFilter@5408fca1, org.springframework.security.web.header.HeaderWriterFilter@4df13b7e, org.springframework.web.filter.CorsFilter@6cb759d5, org.springframework.security.web.csrf.CsrfFilter@e581302, org.springframework.security.web.authentication.logout.LogoutFilter@7a6b214c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@13552290, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@13868c41, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2ba9765b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3ce2c5f6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ccc4ca0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1dbfbd94, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f233f9, org.springframework.security.web.access.ExceptionTranslationFilter@44723d95, org.springframework.security.web.access.intercept.AuthorizationFilter@74d3b331]
+2025-03-02T17:53:40.386+07:00  INFO 83218 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-03-02T17:53:40.387+07:00  INFO 83218 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-03-02T17:53:40.387+07:00  INFO 83218 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-03-02T17:53:40.401+07:00  INFO 83218 --- [    Test worker] c.m.e.g.account.AccountControllerTest    : Started AccountControllerTest in 1.012 seconds (process running for 2.068)
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/accounts
+       Parameters = {_csrf=[g21UcIkhH0YM1C3meSoVEFAv5Zi0c2FHKgtrbYFwl4_82leC4Q9iEr9DeiUh5E6HTgchJDZOyPqBR1dqGG8PXLZHoOme7zK0]}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"69"]
+             Body = {"name":"The Developer","username":"developer","password":"password"}
+    Session Attrs = {}
+
+Handler:
+             Type = null
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 401
+    Error message = Unauthorized
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", WWW-Authenticate:"Basic realm="Realm"", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/plinphon/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.11/f9cb566608fbac6bc7bf54901a7aa11543a989ee/byte-buddy-agent-1.14.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

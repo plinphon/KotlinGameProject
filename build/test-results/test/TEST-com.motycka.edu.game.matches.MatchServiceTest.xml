@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.motycka.edu.game.matches.MatchServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-03-02T10:53:41" hostname="Plinphons-MacBook-Pro.local" time="0.104">
+  <properties/>
+  <testcase name="getMatchesByCharacterId should return correct matches()" classname="com.motycka.edu.game.matches.MatchServiceTest" time="0.095"/>
+  <testcase name="calculateXp via reflection should return correct XP values()" classname="com.motycka.edu.game.matches.MatchServiceTest" time="0.002"/>
+  <testcase name="formatMatchResult should correctly format match outcomes()" classname="com.motycka.edu.game.matches.MatchServiceTest" time="0.003"/>
+  <testcase name="formatMatchResult should handle unknown characters gracefully()" classname="com.motycka.edu.game.matches.MatchServiceTest" time="0.001"/>
+  <testcase name="enhanceMatchResult should throw exception for non-existent characters()" classname="com.motycka.edu.game.matches.MatchServiceTest" time="0.001"/>
+  <testcase name="getMatchesByAccountId should return matches for given account()" classname="com.motycka.edu.game.matches.MatchServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
