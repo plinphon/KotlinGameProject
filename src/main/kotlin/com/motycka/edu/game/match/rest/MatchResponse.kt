@@ -1,6 +1,5 @@
 package com.motycka.edu.game.match.rest
 
-import com.motycka.edu.game.character.model.GameCharacter
 import com.motycka.edu.game.match.model.MatchOutcome
 
 data class MatchResponse(

@@ -1,7 +1,5 @@
 package com.motycka.edu.game.match
 
-import com.motycka.edu.game.character.CharacterRepository
-import com.motycka.edu.game.character.model.GameCharacter
 import com.motycka.edu.game.match.model.GameMatchResult
 import com.motycka.edu.game.match.model.MatchOutcome
 import io.github.oshai.kotlinlogging.KotlinLogging
